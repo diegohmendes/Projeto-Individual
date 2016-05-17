@@ -1,0 +1,38 @@
+.box1 {background: blue;}
+/*.box2 {background: red;} */
+/*.box3 {background: orange;} */
+/*.box4 {background: yellow;} */
+
+
+.msg-logo {margin-top: 17px;}
+
+.msg-logo, .brand, .navegador a {
+	font-weight: bold;
+}
+
+body {
+	padding: 40px;
+}
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
+
+.saldo {
+	margin-top: 30px;
+}
+
+.donut {
+    width: 900px; 
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}

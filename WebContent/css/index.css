@@ -1,0 +1,42 @@
+/*.box1 {background: blue;}
+/*.box2 {background: red;} */
+/*.box3 {background: orange;} */
+/*.box4 {background: yellow;} */
+
+
+.msg-logo {margin-top: 17px;}
+
+.msg-logo, .brand, .navegador a {
+	font-weight: bold;
+}
+
+body {
+	padding: 40px;
+	background:url(../img/bg.jpg) no-repeat center center;
+	min-height: 100%;
+	background-size: cover;
+
+}
+
+.cadastro {
+	background-color: rgba(255, 255, 255, .6);
+	margin-top: 90px;
+}
+
+.descricao {
+	margin-top: 90px;
+	background-color: rgba(255, 255, 255, .6);
+}
+
+
+@media (min-width: 768px) {
+    .navbar .navbar-nav {
+        display: inline-block;
+        float: none;
+        vertical-align: top;
+    }
+
+    .navbar .navbar-collapse {
+        text-align: center;
+    }
+}
